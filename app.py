@@ -41,7 +41,7 @@ st.title("🌌 Galaxy Morphology Classifier ✨")
 st.write("Upload a galaxy image, and the model will classify its morphological type!")
 
 # File uploader
-uploaded_file = st.file_uploader("Choose a galaxy image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Choose a galaxy image", type=["jpg", "jpeg", "png", "webp", "tiff", "bmp"])
 
 if uploaded_file is not None:
     # Display the uploaded image
